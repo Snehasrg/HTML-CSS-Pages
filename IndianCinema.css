@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+
+}
+
+
+   .hero
+{
+    width: 100%;
+    height: 100vh;
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_KgLVJePRVBjKZcLqCz1NuagtN1LRiM_vzw&usqp=CAU");  */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwJY-SKMC2dokoiNPwgfLb96TUAKrvZqVaCQ&usqp=CAU"); 
+
+     background-size: 1500px;
+    background-position: center;
+    
+}   
+.content
+{
+    color: #fbfbfb;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.h1
+{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+.photos img{
+    width: 150px;
+    animation: photos 7s linear infinite;
+}
+.photos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+
+@keyframes photos{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.photos  :nth-child(1){
+    width: 110px;
+    animation-delay: 7s;
+}
+.photos  :nth-child(2){
+    width: 150px;
+    animation-delay: 3s;
+}
+.photos  :nth-child(3){
+    width: 140px;
+    animation-delay: 8s;
+}
+    
+.photos  :nth-child(4){
+    width: 150px;
+    animation-delay: 3s;
+}
+    
+.photos  :nth-child(5){
+    width: 170px;
+    animation-delay: 5s;
+}
+.photos  :nth-child(6){
+    width: 130px;
+    animation-delay: 1s;
+}
+    
+.photos  :nth-child(7){
+    width: 140px;
+    animation-delay: 2s;
+}
+
+/* .photos1  :nth-child(1){
+    width: 110px;
+    animation-delay: 7s;
+}
+.photos1  :nth-child(2){
+    width: 150px;
+    animation-delay: 3s;
+}
+.photos1 :nth-child(3){
+    width: 140px;
+    animation-delay: 8s;
+}
+    
+.photos1  :nth-child(4){
+    width: 150px;
+    animation-delay: 3s;
+}
+    
+.photos1  :nth-child(5){
+    width: 170px;
+    animation-delay: 5s;
+}
+.photos1  :nth-child(6){
+    width: 130px;
+    animation-delay: 1s;
+}
+    
+.photos1  :nth-child(7){
+    width: 140px;
+    animation-delay: 2s;
+} */
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
