@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+.Container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 14s ease-in-out  infinite;
+    background-size: cover;
+    /* background: (0 ,0, 0, 0.5); */
+
+}
+ .details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    text-align: center;
+} 
+/* .details h1{
+    font-size: 5em;
+    color:#fff;
+
+} */
+.details h1 span:nth-child(1){
+color: rgb(255, 98, 0);
+    font-size: 3em;
+
+}
+.details h1 span:nth-child(2){
+    color:#fff;
+    font-size: 2em;
+}
+.details h1 span:nth-child(3){
+        color: rgb(9, 146, 55);
+        font-size: 3em;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(https://images.moneycontrol.com/static-mcnews/2021/08/Indian-flag-770x433.jpg?impolicy=website&width=770&height=431);
+        
+    }
+    25%{
+        background-image: url(https://img.emg-services.net/htmlpages/htmlpage19133/untitled-design-71.jpg);
+        
+
+    }
+    50%{
+        background-image: url(https://seniority.in/media/mageplaza/blog/post/ktpl_blog/Holi_Main_image.jpg);
+        
+
+    }
+    75%{
+        background-image: url(https://images.cnbctv18.com/wp-content/uploads/2022/01/India_Republic_Day_22024269058208-780x438.jpg);
+
+    }
+   
+}
